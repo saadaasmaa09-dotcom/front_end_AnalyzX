@@ -1,0 +1,24 @@
+
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row-reverse; 
+}
+
+.dark  { background: #060F21; }
+.light { background: #F4F6FA; }
+
+.main {
+  flex: 1;
+  overflow-x: hidden;
+
+  margin-right: 240px;
+}
+
+
+@media (max-width: 767px) {
+  .main {
+    margin-right: 0;
+  }
+}

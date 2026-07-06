@@ -1,0 +1,36 @@
+.splash {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark {
+    background: #060F21;
+}
+
+.light {
+    background: #FFFFFF;
+}
+
+.logo {
+    width: min(247px, 55vw);
+    height: auto;
+}
+
+.logoDark {
+    width: 247px;
+    height: 263px;
+    left: 94px;
+    top: 334px;
+}
+
+.logoLight {
+    width: 274px;
+    height: 221px;
+    left: 78px;
+    top: 340px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

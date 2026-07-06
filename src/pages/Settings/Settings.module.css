@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600&display=swap');
+
+.page {
+    width: 430px;
+    min-height: 932px;
+    font-family: 'Alexandria', sans-serif;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.dark {
+    background: #060F21;
+}
+
+.light {
+    background: #FFFFFF;
+}
+
+.textWhite {
+    color: #FFFFFF;
+}
+
+.textDark {
+    color: #060F21;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.navDark {
+    background: #040C1D;
+    border-bottom: 1px solid #14294C;
+}
+
+.navLight {
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(149, 162, 185, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.navCenter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navIcon {
+    width: 27px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.navText {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.backBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    padding: 16px 16px 8px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: #95A2B9;
+}
+
+/* Section */
+.section {
+    padding: 0 16px;
+    margin-bottom: 12px;
+}
+
+/* Cards */
+.card {
+    border-radius: 5px;
+    padding: 12px 16px;
+}
+
+.cardDark {
+    background: #0E1B31;
+    border: 1px solid #122441;
+}
+
+.cardLight {
+    background: #FFFFFF;
+    border: 1px solid rgba(149, 162, 185, 0.5);
+}
+
+/* Profile */
+.profileRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profilePic {
+    width: 95px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.profileInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.profileName {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.profileEmail {
+    font-size: 12px;
+    color: #95A2B9;
+    font-weight: 500;
+}
+
+.editBtn {
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Alexandria', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.editDark {
+    background: #0E1B31;
+    border: 1px solid #122441;
+    color: #FFFFFF;
+}
+
+.editLight {
+    background: #FFFFFF;
+    border: 1px solid rgba(149, 162, 185, 0.5);
+    color: #060F21;
+}
+
+/* Section Header */
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.sectionTitle {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Divider */
+.divider {
+    border: none;
+    margin: 0;
+}
+
+.divDark {
+    border-top: 1px solid #122441;
+}
+
+.divLight {
+    border-top: 1px solid rgba(149, 162, 185, 0.5);
+}
+
+/* Setting Row */
+.settingRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.iconCircle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.circle1Dark {
+    background: #201E51;
+}
+
+.circle1Light {
+    background: #F2EEFD;
+}
+
+.circle2Dark {
+    background: #153155;
+}
+
+.circle2Light {
+    background: #EEF7FE;
+}
+
+.circle3Dark {
+    background: #201E51;
+}
+
+.circle3Light {
+    background: #F2EEFD;
+}
+
+.settingInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.settingTitle {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.settingDesc {
+    font-size: 9px;
+    color: #95A2B9;
+}
+
+/* Toggle */
+.toggle {
+    width: 46px;
+    height: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s;
+    flex-shrink: 0;
+}
+
+.toggleOn {
+    background: linear-gradient(90deg, #6D6FB9 0%, #2F90BD 100%);
+}
+
+.toggleOff {
+    background: rgba(149, 162, 185, 0.5);
+}
+
+.toggleThumb {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    top: 2px;
+    transition: left 0.3s;
+}
+
+.thumbOn {
+    left: 24px;
+}
+
+.thumbOff {
+    left: 2px;
+}
+
+/* Logout */
+.logoutCard {
+    border-radius: 5px;
+    padding: 0 16px;
+}
+
+.logoutDark {
+    background: rgba(14, 27, 49, 0.5);
+    border: 1px solid rgba(205, 57, 86, 0.7);
+}
+
+.logoutLight {
+    background: #FFFFFF;
+    border: 1px solid rgba(205, 57, 86, 0.7);
+}
+
+.logoutIconDark {
+    background: #26162B;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.logoutIconLight {
+    background: #FDF1F1;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.logoutText {
+    font-size: 15px;
+    font-weight: 500;
+    color: #CD3956;
+}

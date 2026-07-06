@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600&display=swap');
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark {
+    background: #060F21;
+}
+
+.light {
+    background: #FFFFFF;
+}
+
+.card {
+    position: relative;
+    width: min(371px, 92vw);
+    background: #0F1C30;
+    border-radius: 16px;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow: hidden;
+    box-shadow:
+        0px -19px 11px rgba(158, 158, 158, 0.05),
+        0px -8px 8px rgba(158, 158, 158, 0.09),
+        0px -2px 5px rgba(158, 158, 158, 0.1);
+}
+
+/* اللوغو الخلفي */
+.bgLogo {
+    position: absolute;
+    width: 280px;
+    height: auto;
+    opacity: 0.05;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* اللوغو العلوي */
+.topLogo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    align-self: center;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+/* كل العناصر فوق الخلفية */
+.socialBtn,
+.divider,
+.label,
+.input,
+.loginBtn,
+.footer {
+    position: relative;
+    z-index: 1;
+}
+
+.socialBtn {
+    width: 100%;
+    height: 46px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.appleBtn {
+    background: #242222;
+    border-color: transparent;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.orText {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.label {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: -0.04em;
+    margin-bottom: -6px;
+}
+
+.input {
+    width: 100%;
+    height: 46px;
+    background: transparent;
+    border: 1px solid rgba(47, 144, 189, 0.4);
+    border-radius: 10px;
+    padding: 0 16px;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.08em;
+    outline: none;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.input:focus {
+    border-color: #2F90BD;
+}
+
+.loginBtn {
+    width: 100%;
+    height: 46px;
+    background: linear-gradient(90deg, #6D6FB9 0%, #2F90BD 100%);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: -0.04em;
+}
+
+.createLink {
+    background: linear-gradient(90deg, #4AFFC7 0%, #2E3DFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+/* Page */
+.dark {
+    background: #060F21;
+}
+
+.light {
+    background: #FBFBFE;
+}
+
+/* Card */
+.cardDark {
+    background: #0F1C30;
+}
+
+.cardLight {
+    background: #FFFFFF;
+}
+
+/* Social Buttons */
+.socialDark {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.socialLight {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #071022;
+    background: #FFFFFF;
+}
+
+/* Apple Button */
+.appleBtn {
+    background: #242222;
+    border-color: transparent;
+    color: #FFFFFF;
+}
+
+.appleBtnLight {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #071022;
+}
+
+/* Or */
+.orDark {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.orLight {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* Label */
+.labelDark {
+    color: #FFFFFF;
+}
+
+.labelLight {
+    color: #081123;
+}
+
+/* Input */
+.inputDark {
+    border: 1px solid rgba(47, 144, 189, 0.4);
+    color: #FFFFFF;
+}
+
+.inputDark::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.inputLight {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #081123;
+}
+
+.inputLight::placeholder {
+    color: #95A2B9;
+}
+
+/* Footer */
+.footerDark {
+    color: #FFFFFF;
+}
+
+.footerLight {
+    color: #081123;
+}

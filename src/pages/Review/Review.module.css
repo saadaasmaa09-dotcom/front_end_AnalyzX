@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.page { width: 430px; min-height: 932px; font-family: 'Alexandria', sans-serif; margin: 0 auto; padding-bottom: 32px; }
+.dark  { background: #060F21; }
+.light { background: #FDFCFF; }
+.textWhite { color: #FFFFFF; }
+.textDark  { color: #060F21; }
+
+/* Navbar */
+.navbar { width: 100%; height: 48px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; }
+.navDark  { background: #040C1D; border-bottom: 1px solid #14294C; }
+.navLight { background: #FFFFFF; border-bottom: 1px solid rgba(149,162,185,0.5); }
+.navLogo  { display: flex; align-items: center; gap: 8px; }
+.navIcon  { width: 27px; height: 26px; object-fit: contain; }
+.navText  { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; }
+
+/* Breadcrumb */
+.breadcrumb { display: flex; align-items: center; gap: 4px; padding: 10px 16px; }
+.breadcrumbLink   { font-size: 9px; color: #95A2B9; cursor: pointer; }
+.breadcrumbActive { font-size: 9px; color: #AD86E4; }
+
+/* Header */
+.header { display: flex; justify-content: space-between; align-items: center; padding: 8px 16px 16px; }
+.title    { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+.subtitle { font-size: 11px; color: #95A2B9; line-height: 20px; max-width: 235px; }
+.headerPic { width: 115px; height: 78px; object-fit: contain; }
+
+/* Section */
+.section { padding: 0 16px; margin-bottom: 12px; }
+.sectionTitle { font-size: 12px; font-weight: 400; }
+
+/* Cards */
+.cardDark  { background: #0E1B31; border: 1px solid #122441; }
+.cardLight { background: #FFFFFF; border: 1px solid rgba(149,162,185,0.5); }
+
+/* File Card */
+.fileCard { border-radius: 5px; padding: 12px; }
+.fileTop  { display: flex; align-items: center; justify-content: space-between; }
+.fileLeft { display: flex; align-items: center; gap: 8px; }
+.fileName { font-size: 11px; display: block; }
+.fileSuccess { font-size: 8px; color: #95A2B9; display: flex; align-items: center; gap: 3px; margin-top: 2px; }
+.changeBtn { display: flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 5px; cursor: pointer; font-size: 7px; font-weight: 500; font-family: 'Alexandria', sans-serif; }
+.changeDark  { background: #0E1B31; border: 1px solid #122441; color: rgba(255,255,255,0.8); }
+.changeLight { background: #FFFFFF; border: 1px solid rgba(149,162,185,0.5); color: #060F21; }
+.fileDivider { border: none; margin: 10px 0; }
+.dividerDark  { border-top: 1px solid #122441; }
+.dividerLight { border-top: 1px solid rgba(149,162,185,0.5); }
+.fileMeta { display: flex; justify-content: space-between; }
+.metaItem { display: flex; flex-direction: column; gap: 2px; }
+.metaLabel { font-size: 8px; color: #95A2B9; }
+.metaValue { font-size: 8px; }
+
+/* Table Card */
+.tableCard { border-radius: 5px; padding: 12px; }
+.tableHeader { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.tableTitle { font-size: 12px; }
+.showingBadge { font-size: 7px; font-weight: 700; color: #95A2B9; padding: 4px 8px; border-radius: 5px; }
+.badgeDark  { background: #0E1B31; border: 1px solid #122441; }
+.badgeLight { background: #FFFFFF; border: 1px solid rgba(149,162,185,0.5); }
+.tableWrap { border-radius: 5px; overflow-x: auto; }
+.tableWrapDark  { border: 1px solid #122441; }
+.tableWrapLight { border: 1px solid rgba(149,162,185,0.5); }
+.table { width: 100%; border-collapse: collapse; }
+.th { font-size: 10px; color: #95A2B9; padding: 8px 6px; text-align: left; font-weight: 400; white-space: nowrap; }
+.td { font-size: 8px; padding: 6px; font-family: 'Inter', sans-serif; font-weight: 500; white-space: nowrap; }
+.tr { }
+.trDark  { border-top: 1px solid #122441; }
+.trLight { border-top: 1px solid rgba(149,162,185,0.5); }
+.dots { color: #95A2B9; font-size: 12px; font-weight: 800; }
+
+/* Quality Card */
+.qualityCard  { border-radius: 5px; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+.qualityInner { border-radius: 5px; padding: 8px 12px; }
+.qualityDark  { background: #0E1B31; border: 1px solid #122441; }
+.qualityLight { background: #FFFFFF; border: 1px solid rgba(149,162,185,0.5); }
+.qualityRow   { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; }
+.qualityMain  { font-size: 8px; font-family: 'Inter', sans-serif; font-weight: 500; }
+.qualitySub   { font-size: 8px; color: #95A2B9; font-family: 'Inter', sans-serif; }
+.qualityDivider { border: none; margin: 0; }
+.viewDetails  { font-size: 9px; color: #AD86E4; display: flex; align-items: center; gap: 2px; white-space: nowrap; cursor: pointer; }
+
+/* Analysis Card */
+.analysisCard   { border-radius: 5px; padding: 12px; }
+.analysisHeader { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+.analysisGrid   { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.typeCard { border-radius: 5px; padding: 8px 6px; display: flex; flex-direction: column; gap: 4px; cursor: pointer; }
+.typeDark    { background: #0E1B31; border: 1px solid #122441; }
+.typeLight   { background: #FFFFFF; border: 1px solid rgba(149,162,185,0.5); }
+.typeSelected { border-color: #6D6FB9 !important; }
+.typeTitle { font-size: 8px; font-weight: 500; font-family: 'Inter', sans-serif; }
+.typeDesc  { font-size: 6px; color: #95A2B9; line-height: 10px; font-family: 'Inter', sans-serif; }
+
+/* Buttons */
+.btnRow   { display: flex; gap: 8px; padding: 0 16px; margin-top: 8px; }
+.backBtn  { flex: 1; height: 37px; border-radius: 5px; display: flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer; font-size: 11px; font-weight: 600; font-family: 'Alexandria', sans-serif; }
+.backDark  { background: #0E1B31; border: 1px solid #122441; }
+.backLight { background: #FFFFFF; border: 1px solid rgba(149,162,185,0.5); }
+.startBtn { flex: 1; height: 37px; background: linear-gradient(90deg, #6D6FB9 0%, #2F90BD 100%); border: none; border-radius: 5px; color: #FFFFFF; font-size: 11px; font-weight: 600; cursor: pointer; font-family: 'Alexandria', sans-serif; display: flex; align-items: center; justify-content: center; gap: 6px; }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600&display=swap');
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.dark {
+    background: #060F21;
+}
+
+.light {
+    background: #FFFFFF;
+}
+
+.logo {
+    width: min(247px, 55vw);
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+    font-size: clamp(16px, 4vw, 20px);
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+
+.titleDark {
+    color: #FFFFFF;
+}
+
+.titleLight {
+    color: #060F21;
+}
+
+.subtitle {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 300;
+    font-size: clamp(12px, 3vw, 15px);
+    letter-spacing: 0.08em;
+    text-align: center;
+    max-width: 316px;
+    margin-bottom: 24px;
+}
+
+.subtitleDark {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.subtitleLight {
+    color: #95A2B9;
+}
+
+.signInBtn {
+    width: min(256px, 80vw);
+    height: 50px;
+    background: linear-gradient(0deg, #6D6FB9 0%, #2F90BD 100%);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow:
+        0px -6px 4px rgba(129, 126, 126, 0.13),
+        0px -3px 3px rgba(129, 126, 126, 0.21);
+    border-radius: 30px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 600;
+    font-size: clamp(16px, 4vw, 20px);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.createBtn {
+    width: min(256px, 80vw);
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 600;
+    font-size: clamp(14px, 3.5vw, 18px);
+    cursor: pointer;
+    background: transparent;
+}
+
+.createDark {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.createLight {
+    color: #060F21;
+    border: 1px solid #060F21;
+}

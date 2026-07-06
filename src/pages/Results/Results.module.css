@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600&display=swap');
+
+.page {
+    width: 430px;
+    min-height: 932px;
+    font-family: 'Alexandria', sans-serif;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.dark {
+    background: #060F21;
+}
+
+.light {
+    background: #FFFFFF;
+}
+
+.textWhite {
+    color: #FFFFFF;
+}
+
+.textDark {
+    color: #060F21;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.navDark {
+    background: #040C1D;
+    border-bottom: 1px solid #14294C;
+}
+
+.navLight {
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(149, 162, 185, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navIcon {
+    width: 27px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.navText {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+/* Header */
+.header {
+    padding: 16px 17px 8px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 11px;
+    color: #95A2B9;
+}
+
+/* Stats Grid */
+.statsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 0 17px;
+    margin-bottom: 12px;
+}
+
+.statCard {
+    border-radius: 5px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cardDark {
+    background: #0E1B31;
+    border: 1px solid #122441;
+}
+
+.cardLight {
+    background: #FFFFFF;
+    border: 1px solid rgba(149, 162, 185, 0.5);
+}
+
+.statInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.statLabel {
+    font-size: 11px;
+    color: #95A2B9;
+}
+
+.statValue {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.statSub {
+    font-size: 10px;
+    color: #1AEE80;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+/* Section */
+.section {
+    padding: 0 17px;
+    margin-bottom: 12px;
+}
+
+/* Chart */
+.chart {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+/* Rec Card */
+.recCard {
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.recHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.recTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.recDivider {
+    border: none;
+    margin: 0;
+}
+
+.dividerDark {
+    border-top: 1px solid #122441;
+}
+
+.dividerLight {
+    border-top: 1px solid rgba(149, 162, 185, 0.5);
+}
+
+.recRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.recIconBox {
+    width: 35px;
+    height: 31px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.recIconDark {
+    background: #153155;
+}
+
+.recIconLight {
+    background: #EEEEFD;
+}
+
+.recInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.recItemTitle {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.recDesc {
+    font-size: 9px;
+    color: #95A2B9;
+}
+
+/* Buttons */
+.btnRow {
+    display: flex;
+    gap: 8px;
+    padding: 0 21px;
+    margin-top: 8px;
+}
+
+.btn {
+    flex: 1;
+    height: 37px;
+    background: linear-gradient(90deg, #6D6FB9 0%, #2F90BD 100%);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Alexandria', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
